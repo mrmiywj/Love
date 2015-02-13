@@ -19,57 +19,63 @@
 	<div id="mainDiv">
 		<div id="content">
 			<div id="code">
-				<span class="comments">/**</span><br />
-				<span class="space"/><span class="comments">* We are both Fudan SSers and programmers,</span><br />
-				<span class="space"/><span class="comments">* so I write some code to celebrate our 1st anniversary.</span><br />
-				<span class="space"/><span class="comments">*/</span><br />
-				Boy i = <span class="keyword">new</span> Boy(<span class="string">"hackerzhou"</span>);<br />
-				Girl u = <span class="keyword">new</span> Girl(<span class="string">"MaryNee"</span>);<br />
-				<span class="comments">// Nov 2, 2010, I told you I love you. </span><br />
-				i.love(u);<br />
-				<span class="comments">// Luckily, you accepted and became my girlfriend eversince.</span><br />
-				u.accepted();<br />
-				<span class="comments">// Since then, I miss u every day.</span><br />
-				i.miss(u);<br />
-				<span class="comments">// And take care of u and our love.</span><br />
+				To my love<br />
+				<span class="space"/><span class="comments">// I am an SJTU CSer. You are my girlfriend.</span><br />
+				<span class="space"/><span class="comments">// You know, it's difficult for me to write love letters.</span><br />
+				<span class="space"/><span class="comments">// So, I wrote this website for you.</span><br />
+				<span class="space"/><span class="comments">// We met at the Master Lecture.</span><br />
+				<span class="space"/><span class="comments">// But we don't know each other since this semester.</span><br />
+				<span class="space"/><span class="comments">// I noticed you since we both took part in member recruitment.</span><br />
+				<span class="space"/><span class="comments">// I knew you are different for me, </span><br />
+				<span class="space"/><span class="comments">// But I didn't know I love you.</span><br />
+				Boy i = <span class="keyword">new</span> Boy(<span class="string">"Ivan Yang"</span>);<br />
+				Girl u = <span class="keyword">new</span> Girl(<span class="string">"Jiajia Zhu"</span>);<br />
+				<span class="comments">// Oct 24, 2014, We became lovers, naturally. </span><br />
+				i.lover = u;<br />
+				u.lover = i;<br />
+				<span class="comments">// Our love marathon began.</span><br />
+				<span class="keyword">While</span>(time goes on){<br />
+				<span class="placeholder">Our stories goes.</span><br />
+				}<br />	
+				<span class="comments">// Sometimes, I'm busy with academic.</span><br />
+				<span class="comments">// But I miss you every day.</span><br />
+				i.miss(u);<br>
+				<span class="comments">// I will take of you forever.</span><br />
 				i.takeCareOf(u);<br />
-				<span class="comments">// You say that you won't be so easy to marry me.</span><br />
-				<span class="comments">// So I keep waiting and I have confidence that you will.</span><br />
-				<span class="keyword">boolean</span> isHesitate = <span class="keyword">true</span>;<br />
-				<span class="keyword">while</span> (isHesitate) {<br />
-				<span class="placeholder"/>i.waitFor(u);<br />
-				<span class="placeholder"/><span class="comments">// I think it is an important decision</span><br />
-				<span class="placeholder"/><span class="comments">// and you should think it over.</span><br />
-				<span class="placeholder"/>isHesitate = u.thinkOver();<br />
-				}<br />
-				<span class="comments">// After a romantic wedding, we will live happily ever after.</span><br />
-				i.marry(u);<br />
-				i.liveHappilyWith(u);<br />
+				<span class="comments">// I know the marathon is very long </span><br />
+				<span class="comments">// and you will not marry me easily.</span><br />
+				<span class="comments">// But I have confidence that you will.</span><br />
+				<span class="comments">// So I go on.</span><br />
+				i.goOn();<br />
+				<span class="comments">// I hope you can wait for the day.</span><br />
+				u.wait();<br />
+				<br/>
+				<span class="comments">// Happy Valentine's Day.</span><br />
 			</div>
 			<div id="loveHeart">
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						Minyue, I have fallen in love with you for
+						I have fallen in love with you for
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
 						Love u forever and ever.<br/>
-						<div class="signature">- hackerzhou</div>
+						<div class="signature">- Ivan</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div id="copyright">
 			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
-			Copyright © 2011 <a href='http://hackerzhou.me'>hackerzhou.me</a> 2009-2011
+			Copyright © 2015 <a href='http://blog.ivanavalon.com'>blog.ivanavalon.com</a> 2009-2015
 		</div>
 	</div>
 	<script type="text/javascript">
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(2010, 10, 2);
+		together.setFullYear(2014, 9, 24);
 		together.setHours(20);
 		together.setMinutes(0);
 		together.setSeconds(0);
